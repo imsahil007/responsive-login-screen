@@ -1,0 +1,13 @@
+.container-fluid{
+    background-color: purple;
+    height: 10rem;
+}
+.row{
+    height: 8.7rem;
+    background-color: orange;
+}
+.col-sm-6{
+/*    height: 8.7rem;*/
+    background-color: yellow;
+}
+
