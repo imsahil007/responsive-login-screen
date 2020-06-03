@@ -1,13 +1,51 @@
-.container-fluid{
-    background-color: purple;
-    height: 10rem;
+.signinBody{
+    background-color: gray;
+    width:100%
 }
-.row{
-    height: 8.7rem;
-    background-color: orange;
-}
-.col-sm-6{
-/*    height: 8.7rem;*/
-    background-color: yellow;
+.signinContainer{
+    margin-top: 4%;
 }
 
+.signinCard{
+    background-color: dimgray;
+/*    display: block;*/
+    padding: 40px 5px 20px;;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+    -moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+img.logoImg{
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    padding: 0 10px;
+/*    width: 40%;*/
+}
+form.singInForm{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+.singInbtn{
+    background-color: #595656;
+    color: white;
+    display: block;
+/*    border: 1px solid black;*/
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    margin: auto;
+    width: 100%;
+    margin-top: 10px;
+}
+.anchor2{
+    text-decoration: none!important;
+    margin-top: 10px;
+    text-align: center;
+    color: darkgrey;
+    display: block;
+}
+.anchor1{
+    text-decoration: none!important;
+    color: darkgrey;
+    padding-left: 20px;
+    font-size: 0.9rem;
+}
